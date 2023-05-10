@@ -23,7 +23,7 @@ export function Home() {
         <Route path="/PostsIndex" element={<PostsIndex />} />
       </Routes> */}
       <Bio></Bio>
-      <Carousel></Carousel>
+      {/* <Carousel></Carousel> */}
       <PostsIndex />
     </div>
   );

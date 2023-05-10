@@ -12,7 +12,9 @@ export function Carousel(props) {
           <div class="imagec">
             <CImage
               className="d-block w-100"
-              src={"https://i.ytimg.com/vi/0xqkksHov58/maxresdefault.jpg"}
+              src={
+                "https://www.c-metric.com/wp-content/uploads/2022/12/Blog-Dec-2022-Uncovering-the-%E2%80%98When-and-%E2%80%98Why-of-Combining-React-with-Ruby-on-Rails-in-Web-Development.jpg"
+              }
               alt="slide 1"
             />
           </div>
