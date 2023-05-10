@@ -38,6 +38,41 @@ export function PostsIndex(props) {
             </button>
           </div>
         </div>
+        <div class="sep">
+          <div class="card-header">
+            <h2 class="title-card">SPA Blog Template</h2>
+          </div>
+          <div class="images-container">
+            <img
+              className="card-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+              alt="Card image"
+            />
+            <img
+              className="card-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+              alt="Card image"
+            />
+            <img
+              className="card-img"
+              src="https://i.pinimg.com/236x/bc/f0/83/bcf0832be7234aef28f62be32e0c216f--object-oriented-programming-javascript.jpg"
+              alt="Card image"
+            />
+            <div className="images-container" />
+          </div>
+          <div className="card-body">
+            <h5 className="card-title">SPA Blog, OOP, and Styling</h5>
+            <p className="card-text">
+              This is an OOP based blog that is styalized to show off someone's portfolio. Features components from
+              Bootstrap, CoreUI, cahilfoley's React-Snowfall, React Router, all organized in a stardard one page web
+              application. It's actually the template I used to create this website, though I had to get rid of the
+              backened when hosting it on github.
+            </p>
+            <button className="btn btn-dark" onClick={() => props.onShowPost(post)}>
+              Github Page
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
