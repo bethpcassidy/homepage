@@ -1,15 +1,15 @@
-import { Header } from "./Header";
+// import { Header } from "./Header";
 import { Home } from "./Home";
 import { Footer } from "./Footer";
+import React from "react";
 // import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Header />
+    <React.Fragment>
       <Home />
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
 

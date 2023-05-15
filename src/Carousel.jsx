@@ -6,7 +6,7 @@ import { CCarouselCaption } from "@coreui/react";
 
 export function Carousel(props) {
   return (
-    <div>
+    <React.Fragment>
       <CCarousel controls>
         <CCarouselItem>
           <div class="imagec">
@@ -54,6 +54,6 @@ export function Carousel(props) {
           </CCarouselCaption>
         </CCarouselItem>
       </CCarousel>
-    </div>
+    </React.Fragment>
   );
 }

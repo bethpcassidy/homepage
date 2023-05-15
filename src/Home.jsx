@@ -1,9 +1,7 @@
-import axios from "axios";
 import { useState, useEffect } from "react";
 import { PostsIndex } from "./PostsIndex";
-import { Modal } from "./Modal";
-import { PostsShow } from "./PostsShow";
 import { Bio } from "./Bio";
+import React from "react";
 import { Carousel } from "./Carousel";
 import * as Scroll from "react-scroll";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
@@ -18,13 +16,13 @@ export function Home() {
   // ];
 
   return (
-    <div>
+    <React.Fragment>
       {/* <Routes>
         <Route path="/PostsIndex" element={<PostsIndex />} />
       </Routes> */}
       <Bio></Bio>
       {/* <Carousel></Carousel> */}
       <PostsIndex />
-    </div>
+    </React.Fragment>
   );
 }
