@@ -44,18 +44,18 @@ html {
 
 .text-center1 {
   color: rgb(213, 213, 213);
-  background-color: #424D55;
-  padding: 1.2rem;
+  background-color: rgba(0,0,0,0);
+  padding: .5rem;
   margin-left:auto;
   margin-right:auto;
+  margin-bottom: -.6em;
   width: 10em;
   height: 2em;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .title-card { 
   background-color: #1F2630;
-  border-radius: 4px;
   margin-top: 2.6em;
   margin-bottom: .6em;
   padding-top: .3cm;
@@ -65,10 +65,9 @@ html {
 
 .title-card1 { 
   background-color: #1F2630;
-  border-radius: 4px;
-  margin-top: .5em;
+  margin-top: 0em;
   margin-bottom: .6em;
-  padding-top: .3cm;
+  padding-top: .2em;
   padding-bottom: .3cm;
   font-size: 40px;
 }
