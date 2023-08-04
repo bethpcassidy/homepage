@@ -1,4 +1,38 @@
-.header {
-  background-color: black;
-  color: black;
+.dropdown {
+  background-color: #1E412F;
+
+  margin-top: -.5em;
+  margin-left: 8em;
+  outline: none !important;
+  max-width: 20px;
+  margin-bottom: 0em;
+}
+
+
+.menu {
+  max-width: 15px;
+  max-height: 20px;
+  margin: 0em;
+  padding: 0em;
+}
+
+
+.btn2 {
+  max-width: 35px;
+  height: 35px;
+  background-color: #1E412F;
+  color: #1E412F;
+}
+
+.dropdown-menu {
+  outline: none !important;
+  border-radius: 0 !important;
+  background-color: #424D55;
+  color: #424D55;
+  fill:#424D55 ;
+
+}
+
+.dropdown-item {
+  background-color: #424D55;
 }

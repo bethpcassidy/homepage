@@ -1,22 +1,26 @@
 import "./Header.css";
+import React from "react";
+import Dropdown from "react";
+
+import icon from "./assets/menu icon.png";
 export function Header() {
-  return;
-  // <div class="header">
-  //   <header>
-  //     {/* <nav className="navbar navbar-dark bg-dark">
-  //       <a className="navbar-brand" herf="#"></a>
-  //       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-  //         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-  //           <li className="nav-item">
-  //             <a href="#">Home</a>
-  //           </li>
-  //           <li className="nav-item">
-  //             <a href="#">About</a>
-  //           </li>
-  //           |
-  //         </ul>
-  //       </div>
-  //     </nav> */}
-  //   </header>
-  // </div>
+  return (
+    <div class="dropdown">
+      <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <img class="menu" src={icon} alt="loading"></img>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li>
+          <a class="dropdown-item" href="#">
+            Linkdin
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item" href="mailto: bethcassdy@gmail.com">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  );
 }

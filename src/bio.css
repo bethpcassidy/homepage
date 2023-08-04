@@ -11,8 +11,10 @@
 }
 
 .train {
-  width: 700px;
+  max-width: 600px;
   padding: 4em 1em 0.5em 1em;
+  margin-top: 1rem;
+  margin-bottom: .4rem;
 }
 .btn {
   background-color: #424D55 !important;
@@ -47,8 +49,8 @@
 
 li {
   display: inline-block;
-  padding-left: 1cm;
-  padding-right: 1cm;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
 a {

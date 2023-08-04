@@ -21,16 +21,13 @@ html {
 .card-img {
   padding: 2em;
   max-width: 18rem;
-  color: grey;
 }
 
 .images-container {
-  color: grey;
-  background-color: #1E2431;
+  background-color: #424D55;
 }
 
 .card-header {
-  color: #1E2431;
   background-color: rgba(0,0,0,0) !important;
   padding-top: 1cm;
 }
@@ -55,21 +52,25 @@ html {
 }
 
 .title-card { 
-  background-color: #1F2630;
+  
   margin-top: 2.6em;
   margin-bottom: .6em;
   padding-top: .3cm;
   padding-bottom: .3cm;
   font-size: 40px;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .title-card1 { 
-  background-color: #1F2630;
+
   margin-top: 0em;
   margin-bottom: .6em;
   padding-top: .2em;
   padding-bottom: .3cm;
   font-size: 40px;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 
 .card-body {
