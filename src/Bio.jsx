@@ -89,7 +89,7 @@ export function Bio(props) {
                 </CTooltip>
               </li>
               <li>
-                <CTooltip content="Got to my linkedin">
+                <CTooltip content="Go to my Linkedin">
                   <a href="https://www.linkedin.com/in/beth-cassidy975/" class="btn btn-lg">
                     <p class="inner">Linkedin</p>
                   </a>

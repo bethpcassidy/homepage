@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { PostsIndex } from "./PostsIndex";
 import { Bio } from "./Bio";
 import React from "react";
-import { Carousel } from "./Carousel";
+import { Carousel1 } from "./Carousel1";
 import * as Scroll from "react-scroll";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
 
@@ -21,7 +21,8 @@ export function Home() {
         <Route path="/PostsIndex" element={<PostsIndex />} />
       </Routes> */}
       <Bio></Bio>
-      {/* <Carousel></Carousel> */}
+
+      {/* <Carousel1></Carousel1> */}
       <PostsIndex />
     </React.Fragment>
   );

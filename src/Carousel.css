@@ -1,5 +1,6 @@
-.imagec {
+/* .imagec {
   height: 300px;
   max-width: auto;
   background: black;
-}
+} */
+@import "react-image-gallery/styles/css/image-gallery.css";

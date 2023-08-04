@@ -12,7 +12,7 @@ export function Header() {
       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
         <li>
           <a class="dropdown-item" href="#">
-            Linkdin
+            Linkedin
           </a>
         </li>
         <li>
