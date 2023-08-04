@@ -6,7 +6,7 @@ export function PostsIndex(props) {
         <h1 class="text-center1">Projects</h1>
         <div class="sep">
           <div class="card-header">
-            <h2 class="title-card">EZWeather</h2>
+            <h2 class="title-card1">EZWeather</h2>
           </div>
           <div class="images-container">
             <img
