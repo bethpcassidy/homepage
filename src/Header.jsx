@@ -11,7 +11,7 @@ export function Header() {
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
         <li>
-          <a class="dropdown-item" href="#">
+          <a class="dropdown-item" href="https://www.linkedin.com/in/beth-cassidy975/">
             Linkedin
           </a>
         </li>
