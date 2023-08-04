@@ -2,7 +2,7 @@ import "./index.css";
 export function PostsIndex(props) {
   return (
     <div class="card-container d-flex w-100 h-100 p-3 mx-auto flex-column" id="PIndex">
-      <div class="card text-center bg-dark">
+      <div class="card text-center">
         <h1 class="text-center1">Projects</h1>
         <div class="sep">
           <div class="card-header">

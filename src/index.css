@@ -1,9 +1,12 @@
 html {
   scroll-behavior: smooth;
 }
-
+.bg {
+  background-color: #1E412F;
+}
 .card {
-  background-color: black;
+  background-color: rgba(0,0,0,0) !important;
+  border: none !important;
   color: rgb(189, 186, 186);
   max-width: 66rem;
   margin:auto;
@@ -11,7 +14,7 @@ html {
 }
 
 .card-container {
-  background-color: black;
+  background-color: #1E412F;
 }
 
 
@@ -23,12 +26,12 @@ html {
 
 .images-container {
   color: grey;
-  background-color: black;
+  background-color: #1E2431;
 }
 
 .card-header {
-  color: black;
-  background-color: rgb(0, 0, 0);
+  color: #1E2431;
+  background-color: rgba(0,0,0,0) !important;
   padding-top: 1cm;
 }
 
@@ -41,21 +44,26 @@ html {
 
 .text-center1 {
   color: rgb(213, 213, 213);
-  background-color: rgb(0, 0, 0);
-  padding: 2rem;
+  background-color: #424D55;
+  padding: 1.2rem;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 4px;
+  width: 10em;
+  height: 2em;
   font-size: 60px;
 }
 
 .title-card { 
-  background-color: rgb(3, 3, 3);
-  color: rgb(213, 213, 213);
+  background-color: #1F2630;
+  border-radius: 4px;
   padding-top: .3cm;
   padding-bottom: .3cm;
   font-size: 40px;
 }
 
 .card-body {
-  background-color: rgb(17, 17, 17);
+  background-color: #1F2630;
   color: rgb(189, 186, 186);
   padding: .3cm;
 }
