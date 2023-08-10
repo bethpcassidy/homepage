@@ -1,9 +1,47 @@
 import "./index.css";
+import { CCard } from "@coreui/react";
+import { CCol } from "@coreui/react";
+import { CRow } from "@coreui/react";
+import { CCardImage } from "@coreui/react";
+import { CCardText } from "@coreui/react";
+import { CCardTitle } from "@coreui/react";
+import { CCardBody } from "@coreui/react";
 export function PostsIndex(props) {
   return (
     <div class="card-container d-flex w-100 h-100 p-3 mx-auto flex-column" id="PIndex">
+      <CCard className="mb-3" style={{ maxWidth: "800px" }}>
+        <CRow className="g-0">
+          <CCol md={4}>
+            <CCardImage src="https://i.imgur.com/xO10ghf.png" style={{ maxWidth: "800px" }} />
+          </CCol>
+          <CCol md={8}>
+            <CCardBody>
+              <CCardTitle>Card title</CCardTitle>
+              <CCardText>
+                This is a wider card with supporting text below as a natural lead-in to additional content. This content
+                is a little bit longer.
+              </CCardText>
+              <CCardText>
+                <small className="text-medium-emphasis">Last updated 3 mins ago</small>
+              </CCardText>
+            </CCardBody>
+            <CCardBody>
+              <CCardTitle>Card title</CCardTitle>
+              <CCardText>
+                This is a wider card with supporting text below as a natural lead-in to additional content. This content
+                is a little bit longer.
+              </CCardText>
+              <a href="https://github.com/bethpcassidy/ramen_api" className="btn btn-dark" role="button">
+                Github Page
+              </a>
+            </CCardBody>
+          </CCol>
+        </CRow>
+      </CCard>
+
       <div class="card text-center">
         <h1 class="text-center1">Projects</h1>
+
         <div class="sep">
           <div class="card-header">
             <h2 class="title-card1">ramen API</h2>
