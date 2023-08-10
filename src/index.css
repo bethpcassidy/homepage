@@ -12,6 +12,19 @@ html {
   margin:auto;
   padding: .2rem;
 }
+h1 {
+  text-align: center;
+  
+  color:#424D55;
+}
+.space {
+  padding: 7rem;
+  padding-right: 1rem;
+  margin-top: -12rem;
+}
+.meow {
+  padding: 4rem
+}
 
 .card-container {
   background-color: #1E412F;
@@ -74,7 +87,7 @@ html {
 }
 
 .card-body {
-  background-color: #1F2630;
+  background-color: #424D55;
   color: rgb(189, 186, 186);
   padding: .3cm;
 }
@@ -82,4 +95,10 @@ html {
 .card-text {
   padding: .3cm;
   color: rgb(189, 186, 186);
+
 }
+
+.imagec {
+  background-color: #1F2630;
+}
+

@@ -9,37 +9,122 @@ import { CCardBody } from "@coreui/react";
 export function PostsIndex(props) {
   return (
     <div class="card-container d-flex w-100 h-100 p-3 mx-auto flex-column" id="PIndex">
-      <CCard className="mb-3" style={{ maxWidth: "800px" }}>
-        <CRow className="g-0">
-          <CCol md={4}>
-            <CCardImage src="https://i.imgur.com/xO10ghf.png" style={{ maxWidth: "800px" }} />
-          </CCol>
-          <CCol md={8}>
-            <CCardBody>
-              <CCardTitle>Card title</CCardTitle>
-              <CCardText>
-                This is a wider card with supporting text below as a natural lead-in to additional content. This content
-                is a little bit longer.
-              </CCardText>
-              <CCardText>
-                <small className="text-medium-emphasis">Last updated 3 mins ago</small>
-              </CCardText>
-            </CCardBody>
-            <CCardBody>
-              <CCardTitle>Card title</CCardTitle>
-              <CCardText>
-                This is a wider card with supporting text below as a natural lead-in to additional content. This content
-                is a little bit longer.
-              </CCardText>
-              <a href="https://github.com/bethpcassidy/ramen_api" className="btn btn-dark" role="button">
-                Github Page
-              </a>
-            </CCardBody>
-          </CCol>
-        </CRow>
-      </CCard>
+      <div class="meow">
+        <CCard className="mb-3" style={{ maxWidth: "800px" }}>
+          <CRow className="g-0">
+            <CCol md={4}>
+              <div class="imagec">
+                <CCardImage src="https://i.imgur.com/xO10ghf.png" style={{ maxWidth: "800px" }} />
+              </div>
+            </CCol>
 
-      <div class="card text-center">
+            <CCol md={8}>
+              <CCardBody>
+                <CCardTitle>Card title</CCardTitle>
+                <CCardText>
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This
+                  content is a little bit longer.
+                </CCardText>
+                <CCardText>
+                  <small className="text-medium-emphasis">Last updated 3 mins ago</small>
+                </CCardText>
+              </CCardBody>
+              <CCardBody>
+                <CCardTitle>Card title</CCardTitle>
+                <CCardText>
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This
+                  content is a little bit longer.
+                </CCardText>
+                <a
+                  href="https://pbs.twimg.com/profile_images/1591121427893190664/LtkaUCDu_400x400.jpg"
+                  className="btn btn-dark"
+                  role="button"
+                >
+                  Github Page
+                </a>
+              </CCardBody>
+            </CCol>
+          </CRow>
+        </CCard>
+      </div>
+      <div class="meow">
+        <CCard className="mb-3" style={{ maxWidth: "800px" }}>
+          <CRow className="g-0">
+            <CCol md={4}>
+              <div class="imagec">
+                <CCardImage src="https://i.imgur.com/xO10ghf.png" style={{ maxWidth: "800px" }} />
+              </div>
+            </CCol>
+
+            <CCol md={8}>
+              <CCardBody>
+                <CCardTitle>Card title</CCardTitle>
+                <CCardText>
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This
+                  content is a little bit longer.
+                </CCardText>
+                <CCardText>
+                  <small className="text-medium-emphasis">Last updated 3 mins ago</small>
+                </CCardText>
+              </CCardBody>
+              <CCardBody>
+                <CCardTitle>Card title</CCardTitle>
+                <CCardText>
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This
+                  content is a little bit longer.
+                </CCardText>
+                <a
+                  href="https://pbs.twimg.com/profile_images/1591121427893190664/LtkaUCDu_400x400.jpg"
+                  className="btn btn-dark"
+                  role="button"
+                >
+                  Github Page
+                </a>
+              </CCardBody>
+            </CCol>
+          </CRow>
+        </CCard>
+      </div>
+      <div class="meow">
+        <CCard className="mb-3" style={{ maxWidth: "800px" }}>
+          <CRow className="g-0">
+            <CCol md={4}>
+              <div class="imagec">
+                <CCardImage src="https://i.imgur.com/xO10ghf.png" style={{ maxWidth: "800px" }} />
+              </div>
+            </CCol>
+
+            <CCol md={8}>
+              <CCardBody>
+                <CCardTitle>Card title</CCardTitle>
+                <CCardText>
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This
+                  content is a little bit longer.
+                </CCardText>
+                <CCardText>
+                  <small className="text-medium-emphasis">Last updated 3 mins ago</small>
+                </CCardText>
+              </CCardBody>
+              <CCardBody>
+                <CCardTitle>Card title</CCardTitle>
+                <CCardText>
+                  This is a wider card with supporting text below as a natural lead-in to additional content. This
+                  content is a little bit longer.
+                </CCardText>
+                <a
+                  href="https://pbs.twimg.com/profile_images/1591121427893190664/LtkaUCDu_400x400.jpg"
+                  className="btn btn-dark"
+                  role="button"
+                >
+                  Github Page
+                </a>
+              </CCardBody>
+            </CCol>
+          </CRow>
+        </CCard>
+      </div>
+
+      {/* <div class="card text-center">
         <h1 class="text-center1">Projects</h1>
 
         <div class="sep">
@@ -164,7 +249,7 @@ export function PostsIndex(props) {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
