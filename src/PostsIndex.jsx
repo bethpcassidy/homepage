@@ -6,7 +6,25 @@ export function PostsIndex(props) {
         <h1 class="text-center1">Projects</h1>
         <div class="sep">
           <div class="card-header">
-            <h2 class="title-card1">EZWeather</h2>
+            <h2 class="title-card1">ramen API</h2>
+          </div>
+          <div class="images-container">
+            <img className="card-img" src="https://i.imgur.com/xO10ghf.png" alt="Card image" />
+            <div className="images-container" />
+          </div>
+          <div className="card-body">
+            <h5 className="card-title">Brooklyn Ramen</h5>
+            <p className="card-text">
+              A Ruby on Rails API that can tell you about ramen restaurants in your area of brooklyn. 09/10/2023
+            </p>
+            <a href="https://github.com/bethpcassidy/ramen_api" className="btn btn-dark" role="button">
+              Github Page
+            </a>
+          </div>
+        </div>
+        <div class="sep">
+          <div class="card-header">
+            <h2 class="title-card">EZWeather</h2>
           </div>
           <div class="images-container">
             <img
