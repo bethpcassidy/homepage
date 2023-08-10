@@ -20,27 +20,18 @@ export function PostsIndex(props) {
 
             <CCol md={8}>
               <CCardBody>
-                <CCardTitle>Card title</CCardTitle>
+                <CCardTitle>Ramen API</CCardTitle>
                 <CCardText>
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This
-                  content is a little bit longer.
+                  A standalone API that can tell you about ramen restaurants in a given area of Brooklyn, NYC. Includes
+                  a database of ramen restaurants in Brooklyn
                 </CCardText>
                 <CCardText>
-                  <small className="text-medium-emphasis">Last updated 3 mins ago</small>
+                  <small className="text-medium-emphasis">Built with Ruby on Rails and Jbuilder </small>
                 </CCardText>
               </CCardBody>
               <CCardBody>
-                <CCardTitle>Card title</CCardTitle>
-                <CCardText>
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This
-                  content is a little bit longer.
-                </CCardText>
-                <a
-                  href="https://pbs.twimg.com/profile_images/1591121427893190664/LtkaUCDu_400x400.jpg"
-                  className="btn btn-dark"
-                  role="button"
-                >
-                  Github Page
+                <a href="https://github.com/bethpcassidy/ramen_api" className="handle" role="button">
+                  <p class="inner2">Github Page</p>
                 </a>
               </CCardBody>
             </CCol>
@@ -52,33 +43,29 @@ export function PostsIndex(props) {
           <CRow className="g-0">
             <CCol md={4}>
               <div class="imagec">
-                <CCardImage src="https://i.imgur.com/xO10ghf.png" style={{ maxWidth: "800px" }} />
+                <CCardImage
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
+                  style={{ maxWidth: "800px" }}
+                />
               </div>
             </CCol>
 
             <CCol md={8}>
               <CCardBody>
-                <CCardTitle>Card title</CCardTitle>
+                <CCardTitle>EZWeather</CCardTitle>
                 <CCardText>
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This
-                  content is a little bit longer.
+                  An API that gathers and displays weather information for registered users. It uses geocoded data to
+                  determine the weather forecast at the center of a given zipcode.
                 </CCardText>
                 <CCardText>
-                  <small className="text-medium-emphasis">Last updated 3 mins ago</small>
+                  <small className="text-medium-emphasis">
+                    Built with Ruby on Rails and REACT. Uses OpenMeteo and Geocode.Maps to gather data.
+                  </small>
                 </CCardText>
               </CCardBody>
               <CCardBody>
-                <CCardTitle>Card title</CCardTitle>
-                <CCardText>
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This
-                  content is a little bit longer.
-                </CCardText>
-                <a
-                  href="https://pbs.twimg.com/profile_images/1591121427893190664/LtkaUCDu_400x400.jpg"
-                  className="btn btn-dark"
-                  role="button"
-                >
-                  Github Page
+                <a href="https://github.com/bethpcassidy/ramen_api" className="handle" role="button">
+                  <p class="inner2">Github Page</p>
                 </a>
               </CCardBody>
             </CCol>
@@ -90,33 +77,27 @@ export function PostsIndex(props) {
           <CRow className="g-0">
             <CCol md={4}>
               <div class="imagec">
-                <CCardImage src="https://i.imgur.com/xO10ghf.png" style={{ maxWidth: "800px" }} />
+                <CCardImage
+                  src="https://logowik.com/content/uploads/images/unity-new-20212110.jpg"
+                  style={{ maxWidth: "800px" }}
+                />
               </div>
             </CCol>
 
             <CCol md={8}>
               <CCardBody>
-                <CCardTitle>Card title</CCardTitle>
+                <CCardTitle>Dialogue Demo</CCardTitle>
                 <CCardText>
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This
-                  content is a little bit longer.
+                  A demo for a dialogue tool that reads dialogue based off of a trigger set off by a designated player
+                  object.
                 </CCardText>
                 <CCardText>
-                  <small className="text-medium-emphasis">Last updated 3 mins ago</small>
+                  <small className="text-medium-emphasis">Built with Unity. </small>
                 </CCardText>
               </CCardBody>
               <CCardBody>
-                <CCardTitle>Card title</CCardTitle>
-                <CCardText>
-                  This is a wider card with supporting text below as a natural lead-in to additional content. This
-                  content is a little bit longer.
-                </CCardText>
-                <a
-                  href="https://pbs.twimg.com/profile_images/1591121427893190664/LtkaUCDu_400x400.jpg"
-                  className="btn btn-dark"
-                  role="button"
-                >
-                  Github Page
+                <a href="https://github.com/bethpcassidy/dialogue-tool-unity" class="handle">
+                  <p class="inner2">Github Page</p>
                 </a>
               </CCardBody>
             </CCol>

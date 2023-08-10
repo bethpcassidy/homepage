@@ -102,3 +102,19 @@ h1 {
   background-color: #1F2630;
 }
 
+.inner2 {
+  margin: auto;
+  color: rgb(174, 173, 173);
+  font-weight: lighter;
+  background-color: #1F2630;
+  padding: .32em;
+
+  margin-left: .1em;
+}
+
+.handle {
+  color: #1F2630;
+  background-color: #1F2630;
+  width: 100px;
+}
+
