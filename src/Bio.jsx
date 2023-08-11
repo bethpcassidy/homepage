@@ -80,7 +80,7 @@ export function Bio(props) {
               </li>
 
               <li>
-                <CTooltip content="Go straight to posts">
+                <CTooltip content="Go to projects">
                   <a class="btn btn-lg  ">
                     <Link to="PIndex" spy={true} smooth={true} offset={50} duration={500}>
                       <p class="inner">Projects</p>
