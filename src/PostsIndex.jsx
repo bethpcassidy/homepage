@@ -10,6 +10,7 @@ export function PostsIndex(props) {
   return (
     <div class="card-container d-flex w-100 h-100 p-3 mx-auto flex-column" id="PIndex">
       <div class="meow">
+        <h1 class="text-center1">Projects</h1>
         <CCard className="mb-3" style={{ maxWidth: "800px" }}>
           <CRow className="g-0">
             <CCol md={4}>
@@ -64,7 +65,7 @@ export function PostsIndex(props) {
                 </CCardText>
               </CCardBody>
               <CCardBody>
-                <a href="https://github.com/bethpcassidy/ramen_api" className="handle" role="button">
+                <a href="https://github.com/bethpcassidy/weather-frontend" className="handle" role="button">
                   <p class="inner2">Github Page</p>
                 </a>
               </CCardBody>
