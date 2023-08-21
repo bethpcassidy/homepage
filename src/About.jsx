@@ -4,7 +4,7 @@ export function About(props) {
     <div className="Topdog">
       <div className="About-Container">
         <div className="text">
-          <p className="heading"> Ruby on Rails - React.js - SQL - CSS - HTML - C# - Unity3D </p>
+          <p className="heading"> Ruby on Rails - React - SQL - CSS - HTML - C# - Unity3D </p>
         </div>
       </div>
     </div>
