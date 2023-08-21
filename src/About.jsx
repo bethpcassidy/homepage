@@ -4,7 +4,7 @@ export function About(props) {
     <div className="Topdog">
       <div className="About-Container">
         <div className="text">
-          <p className="heading"> - Full Stack Web Devlopment - Unity 3D - Blender - Audio Production - </p>
+          <p className="heading"> - Full Stack Web Devlopment - Unity 3D -</p>
         </div>
       </div>
     </div>
