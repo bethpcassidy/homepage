@@ -3,8 +3,10 @@ import { PostsIndex } from "./PostsIndex";
 import { Bio } from "./Bio";
 import React from "react";
 import { Carousel1 } from "./Carousel1";
+import { About } from "./About";
 import * as Scroll from "react-scroll";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from "react-scroll";
+import "./home.css";
 
 // import { Routes, Route } from "react-router-dom";
 // import { BrowserRouter } from "react-router-dom";
@@ -21,8 +23,7 @@ export function Home() {
         <Route path="/PostsIndex" element={<PostsIndex />} />
       </Routes> */}
       <Bio></Bio>
-
-      {/* <Carousel1></Carousel1> */}
+      <About></About>
       <PostsIndex />
     </React.Fragment>
   );

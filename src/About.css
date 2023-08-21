@@ -1,0 +1,73 @@
+#root
+{ 
+
+}
+
+
+.Topdog {
+  
+  margin-top: 3em;
+margin-bottom: 8em;
+}
+
+.About-Container {
+  background-image: url(src/assets/trainwindow.gif);
+  margin: auto;
+  min-width: 600px;
+  max-width: 600px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+
+.email{
+  padding-top: 1em;
+}
+.text {
+  box-shadow: inset 0 0 0 50vw rgba(32, 32, 32, 0.678);
+
+  /* Basic background styles */
+
+  /* background-size: cover; */
+
+  /* Here's the same styles we applied to our content-div earlier */
+  color: white;
+  min-height: 40vh;
+  min-width: 600px;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Add a transition, just for fun */
+  /* transition: box-shadow .3s ease-out; */
+  /* padding:10em; */
+  background-repeat:no-repeat;
+
+ 
+}
+
+.heading {
+  color: rgb(255, 255, 255);
+  margin: auto;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: lighter; 
+  min-width: 600px;
+  max-width: 600px;
+}
+
+.image-box__overlay {
+  min-width: 600px;
+  max-width: 600px;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.241);
+
+}
