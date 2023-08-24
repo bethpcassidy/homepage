@@ -45,7 +45,7 @@ export function PostsIndex(props) {
           <CRow className="g-0">
             <CCol md={4}>
               <div class="imagec">
-                <CCardImage src="src/assets/400px-P4_Rock_Pikmin (1).webp" style={{ maxWidth: "170px" }} />
+                <CCardImage src="https://i.imgur.com/J48stEH.png" style={{ maxWidth: "800px" }} />
               </div>
             </CCol>
 
@@ -53,8 +53,7 @@ export function PostsIndex(props) {
               <CCardBody>
                 <CCardTitle>Personality Quiz Template</CCardTitle>
                 <CCardText>
-                  A simple standalone personality quiz template themed around the video game Pikmin. Take this quiz to
-                  find out which Pikmin you are.
+                  A simple standalone personality quiz template themed around the video game Pikmin.
                 </CCardText>
                 <CCardText>
                   <small className="text-medium-emphasis">Built in React.</small>
