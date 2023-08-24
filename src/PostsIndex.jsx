@@ -39,6 +39,37 @@ export function PostsIndex(props) {
           </CRow>
         </CCard>
       </div>
+      {/* quiz */}
+      <div class="meow">
+        <CCard className="mb-3" style={{ maxWidth: "800px" }}>
+          <CRow className="g-0">
+            <CCol md={4}>
+              <div class="imagec">
+                <CCardImage src="src/assets/400px-P4_Rock_Pikmin (1).webp" style={{ maxWidth: "170px" }} />
+              </div>
+            </CCol>
+
+            <CCol md={8}>
+              <CCardBody>
+                <CCardTitle>Personality Quiz Template</CCardTitle>
+                <CCardText>
+                  A simple standalone personality quiz template themed around the video game Pikmin. Take this quiz to
+                  find out which Pikmin you are.
+                </CCardText>
+                <CCardText>
+                  <small className="text-medium-emphasis">Built in React.</small>
+                </CCardText>
+              </CCardBody>
+              <CCardBody>
+                <a href="https://github.com/bethpcassidy/personality-quiz-template" className="handle" role="button">
+                  <p class="inner2">Github Page</p>
+                </a>
+              </CCardBody>
+            </CCol>
+          </CRow>
+        </CCard>
+      </div>
+      {/* ezweather*/}
       <div class="meow">
         <CCard className="mb-3" style={{ maxWidth: "800px" }}>
           <CRow className="g-0">
@@ -73,6 +104,7 @@ export function PostsIndex(props) {
           </CRow>
         </CCard>
       </div>
+      {/* dialogue */}
       <div class="meow">
         <CCard className="mb-3" style={{ maxWidth: "800px" }}>
           <CRow className="g-0">
@@ -105,7 +137,6 @@ export function PostsIndex(props) {
           </CRow>
         </CCard>
       </div>
-
       {/* <div class="card text-center">
         <h1 class="text-center1">Projects</h1>
 
