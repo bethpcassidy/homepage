@@ -67,7 +67,8 @@ export function Bio(props) {
       <main class="px-3">
         <img class="train" src={logo} alt="loading"></img>
         <p class="name">Beth Cassidy</p>
-        <p class="lead1">Software Developer</p>
+        <p class="lead1">Software Engineer</p>
+
         <p class="lead">
           <div class="button">
             <ul class="list">
@@ -96,6 +97,14 @@ export function Bio(props) {
                 </CTooltip>
               </li>
             </ul>
+            <div class="description">
+              <p>-</p>
+              <a>
+                This is an example of a small paragraph detailing things about the person who this website is about. It
+                mainly serves as a visual guide. This is an example of a small paragraph detailing things about the
+                person who this website is about. It mainly serves as a visual guide.
+              </a>
+            </div>
           </div>
         </p>
       </main>
