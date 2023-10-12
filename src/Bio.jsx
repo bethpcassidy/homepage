@@ -100,13 +100,14 @@ export function Bio(props) {
             <div class="descriptionstart">
               <p className="kick">_</p>
               <a>
-                Welcome to my website! I am a software engineer with a background in audio and hospitality. I earned a
-                certificate in fullstack web development from Actualize Coding Bootcamp and am currently studying for
-                the CompTIA A+ 1101 & 1102.
+                Hi and welcome to my website! I am a software engineer with a background in audio and hospitality. I
+                earned a certificate in fullstack web development from Actualize Coding Bootcamp and am currently
+                studying for the CompTIA A+ 1101 & 1102. Feel free to check out my growing list of projects on the
+                bottom of the page.
               </a>
             </div>
             <div class="description">
-              <a>For any inquiries please email me at bethcassdy@gmail.com</a>
+              <a>For any inquiries please email me at bethcassdy@gmail.com or reach out to me on LinkedIn</a>
               <p className="kick">_</p>
             </div>
           </div>
